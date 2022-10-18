@@ -1,0 +1,170 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moa and Valkyrie Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel='stylesheet' href='/style.css'>
+  <body translate="no">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    <audio id="sound-oiseaux" src="./audio/12.wav" autostart="false"></audio>
+    <audio id="audio3" autostart="false" src="./audio/3.mp3"></audio>
+    <audio id="audio4" autostart="false" src="./audio/8.wav"></audio>
+    <audio id="sound-chat" src="./audio/13.wav" autostart="false"></audio>
+    <section id="home">
+      <div class="container">
+        <div id="carouselExample" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#listenvalkyrie" style="cursor: pointer">
+                <img class="d-block w-100" src="./assets/munited_img/CAPA FACE valkyrie.png" alt="First slide" />
+              </a>
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./assets/munited_img/Capa Face.png" alt="Second slide" />
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+          </div>
+          <!-- <button
+            class="carousel-control-prev"
+            data-bs-target="#carouselExample"
+            type="button"
+            data-bs-slide="prev"
+          ><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button
+            class="carousel-control-next"
+            data-bs-target="#carouselExample"
+            type="button"
+            data-bs-slide="next"
+          ><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button> -->
+        </div>
+      </div>
+      </div>
+    </section>
+    <div class=""></div>
+    <a class="btn-a" onclick="play('sound-oiseaux')" href="#animatedModal" id="notification">
+      <div id="notificationWrap"><p>About</p></div>
+    </a>
+    <div id="animatedModal" class="landing">
+      <div id="closebt-container" class="close-animatedModal" onclick="play('sound-chat')">
+        <img class="closebt" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/close.svg">
+      </div>
+      <div id="modal-container" class="col-sm-8 col-md-8 col-lg-8 col-lg-offset-2">
+        <div class="modalContent">
+          <div class="container sobre" id="about">
+            <div id="container2">
+              <div class="one">
+                <img src="./assets/munited_img/about(1).jpg" alt="">
+              </div>
+              <br>
+              <div class="two">
+                <p> Morgana Amaral is 33 years old and is based in the Netherlands. From early on she always demonstrated a love for electronic music. When she was 16 years old she became involved in the club scene and in time she shifted to psytrance and other electronic music genres. In 2016 she decided to become a DJ Act known as Valkyrie, debuting with full-on psytrance as her first genre. From there she expanded to tech house and the low bpm world, starting her second DJ Act as MoA. <br>
+                  <br> She is a resident DJ from Sonitum Records, PMC (Ibiza) as representative Dj, and Wav bookings as casting DJ and Booker. In 2021 she started a new phase adding to her roles, Road artist management and stage Management in festivals all over Europe, and launched her new brand M-United at the beginning of 2022. <br>
+                  <br> So if you want to know more about her work just check our links and info material.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="btn-a" href="#animatedModalz" onclick="play('audio3')" id="notification2">
+      <div id="notificationWrap2">
+        <p>Listen Valkyrie</p>
+      </div>
+    </a>
+    <div id="animatedModalz">
+      <div id="closebt-container" class="close-animatedModalz">
+        <img class="closebt" onclick="play('sound-chat')" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/close.svg">
+      </div>
+      <div id="modal-container" class="col-sm-8 col-md-8 col-lg-8 col-lg-offset-2">
+        <div class="modalContent">
+          <div class="container sobre" id="listenvalk">
+            <section id="listenvalkyrie"></section>
+            <div class="embeded-valkyrie">
+              <td>
+                <iframe width="100%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1227936811&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+              </td>
+            </div>
+            <p> Having her origins in very traditional sounds, she´s well known for her psychedelic mixes in the Fullon genre, always telling a story and bringing a lot of energy to the dancefloor in her sets, which may vary from Fullon groove to Fullon night! With her new persona, she had the opportunity to share the decks with big artists, such as Michelle Adamson, Bubble, Talamasca, Sesto Sento, and many others. Currently representing Sonitum Records and Wav Bookings agency (as Dj and booker). </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="btn-a" href="#animatedModalx" onclick="play('audio4')" id="notification3">
+      <div id="notificationWrap3">
+        <p>Listen Moa</p>
+      </div>
+    </a>
+    <div id="animatedModalx">
+      <div id="closebt-container" class="close-animatedModalx">
+        <img class="closebt" onclick="play('sound-chat')" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/close.svg">
+      </div>
+      <div id="modal-container" class="col-sm-8 col-md-8 col-lg-8 col-lg-offset-2">
+        <div class="modalContent">
+          <div class="container sobre" id="listenmoa">
+            <section id="listenmoa"></section>
+            <div class="embeded">
+              <td>
+                <iframe width="100%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1220005012&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+              </td>
+            </div>
+            <p> Morgana Amaral A.K.A MoA Dj started her second DJ act in 2016. She has been performing all over Brazil and Europe, including a few of the most well-known festivals in Brazil, the Samsara Festival and Playground Music Festival. Her music style brings the playfulness and hot rhythms of Tech house and Brazilian bass together making the dance floor always high-spirited! And now added as a representative of PMC Ibiza as Label DJ. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="btn-a" onclick="play('sound-oiseaux')" href="https://linktr.ee/munitedmusic" target="_blank" id="notification4">
+      <div id="notificationWrap4">
+        <p>Media</p>
+      </div>
+    </a>
+    <a class="btn-a" onclick="play('sound-oiseaux')" href=" mailto:munitedmusic.nl@gmail.com?subject=Contact&body=Text%20your%20message%20here " target="_blank" id="notification4">
+      <div id="notificationWrap4">
+        <p>Contact</p>
+      </div>
+    </a>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='/animatedModal.js'></script>
+    <script id="rendered-js">
+      $("#notification").animatedModal({
+        color: '#34363D'
+      });
+      //# sourceURL=pen.js
+      id = "rendered-js" > $("#notification2").animatedModalz({
+        color: '#34363D'
+      });
+      //# sourceURL=pen.js
+      id = "rendered-js" > $("#notification3").animatedModalx({
+        color: '#34363D'
+      });
+      //# sourceURL=pen.js
+      id = "rendered-js" > $("#notification4").animatedModaly({
+        color: '#34363D'
+      });
+      //# sourceURL=pen.js
+      function play(id) {
+        const audioElement = document.getElementById(id);
+        resetAll();
+        if (audioElement.paused) {
+          audioElement.play();
+        }
+      }
+
+      function resetAll() {
+        const audioElements = document.querySelectorAll('audio[id^="sound-"]');
+        audioElements.forEach(audioElement => {
+          audioElement.pause();
+          audioElement.currentTime = 0;
+        });
+      }
+    </script>
+  </body>
+</html>
